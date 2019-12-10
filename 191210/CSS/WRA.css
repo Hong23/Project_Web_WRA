@@ -1,0 +1,134 @@
+html { 
+    min-height: 100%; /* 非常重要 */ 
+    position: relative;
+}
+body {
+	line-height: 1;
+	font-family: 微軟正黑體;
+}
+header{
+    margin: 1rem 0 1rem 0;
+}
+header p{
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+}
+header img{
+    margin-left: 3%;
+}
+section img{
+    width: 100%;
+    height: 140px;
+}
+section span{
+    font-size:50px;
+    font-weight:600;
+    color:white;
+    position:absolute;   
+    top:12%;left:35%;
+    transform: translate(-20%, -50%); 
+    z-index: 1;
+}
+.bar{
+    width: 16.66666%;
+    text-align: center;
+    margin: 1% 0 1% 0;
+}
+.bar a{
+    font-size: 32px;
+    color: white;
+}
+article{
+    font-size: 40px;
+    height: 600px;
+    line-height: 1.5;
+    margin: 10% 20% 0px 20%;
+    text-align: justify;
+}
+.content{
+    width: 100%;
+    font-size: 26px;
+    margin: auto;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.content p{
+    float: left;
+    width: 60%;
+}
+.material{
+    width: 25%;
+    margin-top: 10%;
+    float: left;
+}
+.material img{
+    max-height: 120px;
+}
+.material label{
+    font-size: 28px;
+    margin-left: 30%;
+    text-align: center;
+}
+.material2{
+    width: 50%;
+    margin-top: 10%;
+    float: left;
+}
+.material2 img{
+    width: 60%;
+    height: 180px;
+}
+.copyright{
+    background-color: #3366A3;
+    height: 210px;
+    font-size: 14px;
+    color: white;
+}
+.copyright a{
+    color: white;
+}
+.row{
+    width: 100%;
+    padding-top: 4px;
+}
+footer{ 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    right:0;
+    height: 50px;
+    text-align: center;
+    background-color: #4A90E2;
+    color: white;
+}
+footer p{
+    font-size: 18px;
+    margin: 1rem 0 1rem 0;
+}
+.upButton {
+    border-radius: 50%;
+    width: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: black;
+    background-color: #3D6FA9;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 16px 16px 0;
+    z-index: 9999;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none; 
+}
+.upButton:hover {
+    color: white;
+    -webkit-box-shadow: 0px 4px 4px black;
+    box-shadow: 0px 4px 4px black;
+    text-decoration: none; 
+}
